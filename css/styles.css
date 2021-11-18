@@ -468,6 +468,41 @@ body {
   width: 100%;
 }
 
+.travels__button {
+  background: #fff;
+  padding: 40px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: -2px 0;
+}
+
+.travels__button a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+  text-decoration: none;
+  color: #137ac9;
+  border: solid 2px #137ac9;
+  border-radius: 100px;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.travels__button a:hover {
+  -webkit-box-shadow: 0 0 4px 1px #137ac9;
+          box-shadow: 0 0 4px 1px #137ac9;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
 .travels__footer {
   background: #fff;
   padding: 100px 0 0 0;

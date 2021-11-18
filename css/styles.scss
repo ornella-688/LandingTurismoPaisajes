@@ -414,6 +414,36 @@ $grey-text: #5b5b5f;
         }
     }
 
+    &__button {
+        background: #fff;
+        padding: 40px 0;
+        box-sizing: border-box;
+        margin: -2px 0;
+
+        a {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600 !important;
+            font-size: 20px;
+            line-height: 1.1;
+            text-align: center;
+            text-decoration: none;
+            color: $dark-blue;
+            border: solid 2px $dark-blue;
+            border-radius: 100px;
+            display: block;
+            width: 250px;
+            margin: 0 auto;
+            padding: 10px 0;
+            box-sizing: border-box;
+            transition-duration: .2s;
+
+            &:hover {
+                box-shadow: 0 0 4px 1px $dark-blue;
+                transition-duration: .2s;
+            }
+        }
+    }
+
     &__footer {
         background: #fff;
         padding: 100px 0 0 0;
